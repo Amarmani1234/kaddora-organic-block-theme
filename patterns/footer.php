@@ -18,20 +18,20 @@
             <!-- /wp:paragraph -->
         </div>
         <!-- /wp:column -->
-
-        <!-- wp:column -->
-        <div class="wp-block-column"><!-- wp:heading {"level":3} -->
+vel":3} -->
             <h3 class="wp-block-heading">Organic</h3>
             <!-- /wp:heading -->
 
             <!-- wp:navigation {"overlayMenu":"never","style":{"typography":{"fontSize":"1.3rem"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-<!-- wp:navigation-link {"label":"Home","url":"#"} /-->
+        <!-- wp:column -->
+        <div class="wp-block-column"><!-- wp:heading {"le
+<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Home', 'kaddora-organic-block-theme' ); ?>","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"Service","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Service', 'kaddora-organic-block-theme' ); ?>","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"About","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_html_e( 'About Us', 'kaddora-organic-block-theme' ); ?>","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"Contact","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Contact Us', 'kaddora-organic-block-theme' ); ?>","url":"#"} /-->
 <!-- /wp:navigation -->
         </div>
         <!-- /wp:column -->
@@ -42,13 +42,13 @@
             <!-- /wp:heading -->
 
             <!-- wp:navigation {"overlayMenu":"never","style":{"typography":{"fontSize":"1.3rem"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-<!-- wp:navigation-link {"label":"Offers","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Offers', 'kaddora-organic-block-theme' ); ?>","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"Discount Coupons","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Discount Coupons', 'kaddora-organic-block-theme' ); ?>","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"Stores","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Stores', 'kaddora-organic-block-theme' ); ?>","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"New Orders","url":"#"} /-->
+<!-- wp:navigation-link {"label":"<?php esc_html_e( 'New Orders', 'kaddora-organic-block-theme' ); ?>","url":"#"} /-->
 
 <!-- /wp:navigation -->
         </div>
