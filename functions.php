@@ -1,16 +1,5 @@
 <?php
-/**
- * Twenty Twenty-Four functions and definitions
- *
- * @link https://developer.wordpress.org/themes/basics/theme-functions/
- *
- * @package Twenty Twenty-Four
- * @since Twenty Twenty-Four 1.0
- */
 
-/**
- * Register block styles.
- */
 
 if ( ! function_exists( 'twentytwentyfour_block_styles' ) ) :
 	/**
@@ -49,10 +38,7 @@ if ( ! function_exists( 'twentytwentyfour_block_styles' ) ) :
 			array(
 				'name'         => 'pill',
 				'label'        => __( 'Pill', 'twentytwentyfour' ),
-				/*
-				 * Styles variation for post terms
-				 * https://github.com/WordPress/gutenberg/issues/24956
-				 */
+				
 				'inline_style' => '
 				.is-style-pill a,
 				.is-style-pill span:not([class], [data-rich-text-placeholder]) {
@@ -72,10 +58,7 @@ if ( ! function_exists( 'twentytwentyfour_block_styles' ) ) :
 			array(
 				'name'         => 'checkmark-list',
 				'label'        => __( 'Checkmark', 'twentytwentyfour' ),
-				/*
-				 * Styles for the custom checkmark list block style
-				 * https://github.com/WordPress/gutenberg/issues/51480
-				 */
+				
 				'inline_style' => '
 				ul.is-style-checkmark-list {
 					list-style-type: "\2713";
@@ -91,9 +74,7 @@ if ( ! function_exists( 'twentytwentyfour_block_styles' ) ) :
 			array(
 				'name'         => 'arrow-link',
 				'label'        => __( 'With arrow', 'twentytwentyfour' ),
-				/*
-				 * Styles for the custom arrow nav link block style
-				 */
+				
 				'inline_style' => '
 				.is-style-arrow-link .wp-block-navigation-item__label:after {
 					content: "\2197";
@@ -146,9 +127,7 @@ endif;
 
 add_action( 'init', 'twentytwentyfour_block_styles' );
 
-/**
- * Enqueue block stylesheets.
- */
+
 
 if ( ! function_exists( 'twentytwentyfour_block_stylesheets' ) ) :
 	/**
@@ -158,14 +137,7 @@ if ( ! function_exists( 'twentytwentyfour_block_stylesheets' ) ) :
 	 * @return void
 	 */
 	function twentytwentyfour_block_stylesheets() {
-		/**
-		 * The wp_enqueue_block_style() function allows us to enqueue a stylesheet
-		 * for a specific block. These will only get loaded when the block is rendered
-		 * (both in the editor and on the front end), improving performance
-		 * and reducing the amount of data requested by visitors.
-		 *
-		 * See https://make.wordpress.org/core/2021/12/15/using-multiple-stylesheets-per-block/ for more info.
-		 */
+		
 		wp_enqueue_block_style(
 			'core/button',
 			array(
@@ -180,15 +152,13 @@ endif;
 
 add_action( 'init', 'twentytwentyfour_block_stylesheets' );
 
-/**
- * Register pattern categories.
- */
+
 
 if ( ! function_exists( 'twentytwentyfour_pattern_categories' ) ) :
 	/**
-	 * Register pattern categories
+
 	 *
-	 * @since Twenty Twenty-Four 1.0
+	 * @since  1.0
 	 * @return void
 	 */
 	function twentytwentyfour_pattern_categories() {
