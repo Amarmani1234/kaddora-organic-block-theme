@@ -204,3 +204,17 @@ if ( ! function_exists( 'twentytwentyfour_pattern_categories' ) ) :
 endif;
 
 add_action( 'init', 'twentytwentyfour_pattern_categories' );
+
+
+
+function my_custom_styles() {
+    // enqueue the main stylesheet
+    wp_enqueue_style(
+        'my-custom-css',
+        get_stylesheet_directory_uri() . '/assets/css/woocommerce.css'
+    );
+
+    // OR if you have a separate CSS file:
+    // wp_enqueue_style('my-custom-css', get_stylesheet_directory_uri() . '/assets/css/custom.css');
+}
+add_action('wp_enqueue_scripts', 'my_custom_styles');
