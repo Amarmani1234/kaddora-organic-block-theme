@@ -1,6 +1,5 @@
 <?php
 
-
 if ( ! function_exists( 'twentytwentyfour_block_styles' ) ) :
 	/**
 	 * Register custom block styles
