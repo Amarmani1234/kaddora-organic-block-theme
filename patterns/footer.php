@@ -1,8 +1,8 @@
 <?php
 /**
- * Title: Header
+ * Title: Footer
  * Slug: kaddora-organic-block-theme/footer
- * Categories: header
+ * Categories: footer
  */
 ?>
 <!-- wp:group {"style":{"color":{"background":"#f4f4f4"},"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"layout":{"type":"constrained","contentSize":"100%"}} -->
