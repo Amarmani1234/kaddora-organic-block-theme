@@ -1,30 +1,49 @@
-<<<<<<< HEAD
-<!-- wp:template-part {"slug":"header"} /-->
+<!-- wp:template-part {"slug":"header","theme":"kaddora-organic-block-theme"} /-->
 
-<!-- wp:template-part {"slug":"footer"} /-->
-=======
-<!-- wp:template-part {"slug":"header","theme":"kaddora-organic-block-theme","area":"header"} /-->
+<!-- wp:group {"tagName":"main","layout":{"inherit":true,"type":"constrained"}} -->
+<main class="wp-block-group"><!-- wp:woocommerce/breadcrumbs /-->
 
-<!-- wp:group {"tagName":"main","style":{"spacing":{"padding":{"top":"var:preset|spacing|superbspacing-xxlarge","bottom":"var:preset|spacing|superbspacing-xxlarge","left":"var:preset|spacing|superbspacing-medium","right":"var:preset|spacing|superbspacing-medium"},"margin":{"bottom":"var:preset|spacing|superbspacing-medium"}}},"layout":{"type":"constrained"}} -->
-<main class="wp-block-group" style="margin-bottom:var(--wp--preset--spacing--superbspacing-medium);padding-top:var(--wp--preset--spacing--superbspacing-xxlarge);padding-right:var(--wp--preset--spacing--superbspacing-medium);padding-bottom:var(--wp--preset--spacing--superbspacing-xxlarge);padding-left:var(--wp--preset--spacing--superbspacing-medium)"><!-- wp:spacer {"height":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dspacing\u002d\u002d30)"} -->
-<div style="height:var(--wp--preset--spacing--30)" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
+<!-- wp:query-title {"type":"archive","showPrefix":false,"align":"wide"} /-->
 
-<!-- wp:heading {"textAlign":"center","level":1,"fontSize":"superbfont-xlarge"} -->
-<h1 class="wp-block-heading has-text-align-center has-superbfont-xlarge-font-size">404 - Page Not Found-Showing Error-Organic food</h1>
-<!-- /wp:heading -->
+<!-- wp:woocommerce/store-notices /-->
 
-<!-- wp:group {"align":"wide","style":{"spacing":{"margin":{"top":"5px"}}},"layout":{"type":"constrained","contentSize":"700px"}} -->
-<div class="wp-block-group alignwide" style="margin-top:5px"><!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|superbspacing-xsmall","bottom":"var:preset|spacing|superbspacing-small"}},"elements":{"link":{"color":{"text":"var:preset|color|mono-2"}}}},"textColor":"mono-2"} -->
-<p class="has-text-align-center has-mono-2-color has-text-color has-link-color" style="margin-top:var(--wp--preset--spacing--superbspacing-xsmall);margin-bottom:var(--wp--preset--spacing--superbspacing-small)">Search below to find what you're looking for.</p>
-<!-- /wp:paragraph -->
+<!-- wp:group {"className":"alignwide","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group alignwide"><!-- wp:woocommerce/product-results-count /-->
 
-<!-- wp:template-part {"slug":"search-field-large","theme":"beauty-ecommerce-x","area":"uncategorized"} /--></div>
+<!-- wp:woocommerce/catalog-sorting /--></div>
 <!-- /wp:group -->
 
-<!-- wp:spacer {"height":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dspacing\u002d\u002d70)"} -->
-<div style="height:var(--wp--preset--spacing--70)" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer --></main>
+<!-- wp:woocommerce/product-collection {"queryId":0,"query":{"woocommerceAttributes":[],"woocommerceStockStatus":["instock","outofstock","onbackorder"],"taxQuery":[],"isProductCollectionBlock":true,"perPage":10,"pages":0,"offset":0,"postType":"product","order":"asc","orderBy":"title","author":"","search":"","exclude":[],"sticky":"","inherit":true},"tagName":"div","displayLayout":{"type":"flex","columns":3,"shrinkColumns":true},"dimensions":{"widthType":"fill","fixedWidth":""},"queryContextIncludes":["collection"],"__privatePreviewState":{"isPreview":false,"previewMessage":"Actual products will vary depending on the page being viewed."},"align":"wide"} -->
+<div class="wp-block-woocommerce-product-collection alignwide"><!-- wp:woocommerce/product-template -->
+<!-- wp:woocommerce/product-image {"showSaleBadge":false,"isDescendentOfQueryLoop":true,"width":"260px","height":"250px","scale":"fill"} -->
+<!-- wp:woocommerce/product-sale-badge {"isDescendentOfQueryLoop":true,"align":"right"} /-->
+<!-- /wp:woocommerce/product-image -->
+
+<!-- wp:post-title {"textAlign":"center","isLink":true,"style":{"typography":{"lineHeight":"1.4"}},"fontSize":"medium","__woocommerceNamespace":"woocommerce/product-collection/product-title"} /-->
+
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
+<div class="wp-block-group"><!-- wp:woocommerce/product-price {"isDescendentOfQueryLoop":true,"textAlign":"center","fontSize":"small","style":{"spacing":{"margin":{"bottom":"1rem"}}}} /-->
+
+<!-- wp:paragraph -->
+<p><strong><kbd>10% off</kbd></strong></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:woocommerce/product-button {"textAlign":"center","isDescendentOfQueryLoop":true,"fontSize":"small","style":{"spacing":{"margin":{"bottom":"1rem"}},"color":{"background":"#6bb252"}}} /-->
+<!-- /wp:woocommerce/product-template -->
+
+<!-- wp:woocommerce/product-collection-no-results -->
+<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","flexWrap":"wrap"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"fontSize":"medium"} -->
+<p class="has-medium-font-size"><strong>No results found</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>You can try <a class="wc-link-clear-any-filters" href="#">clearing any filters</a> or head to our <a class="wc-link-stores-home" href="#">store's home</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+<!-- /wp:woocommerce/product-collection-no-results --></div>
+<!-- /wp:woocommerce/product-collection --></main>
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"categories":["header"],"patternName":"kaddora-organic-block-theme/footer","name":"Header"},"style":{"color":{"background":"#f4f4f4"},"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"layout":{"type":"constrained","contentSize":"100%"}} -->
@@ -50,17 +69,15 @@
 <!-- wp:navigation-link {"label":"About Us","url":"#"} /-->
 
 <!-- wp:navigation-link {"label":"Contact Us","url":"#"} /-->
+<!-- /wp:navigation --></div>
+<!-- /wp:column -->
+
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"1.5rem"}}} -->
 <h3 class="wp-block-heading" style="font-size:1.5rem">Quick Link</h3>
 <!-- /wp:heading -->
 
-<!-- wp:navigation {"ref":569,"overlayMenu":"never","metadata":{"ignoredHookedBlocks":["woocommerce/customer-account"]},"style":{"typography":{"fontSize":"1rem"},"spacing":{"blockGap":"1px"}},"layout":{"type":"flex","orientation":"vertical"}} /-->
-
-<!-- wp:woocommerce/customer-account {"displayStyle":"icon_only","iconStyle":"line","iconClass":"wc-block-customer-account__account-icon"} /--></div>
-
 <!-- wp:navigation {"ref":569,"overlayMenu":"never","metadata":{"ignoredHookedBlocks":["woocommerce/customer-account"]},"style":{"typography":{"fontSize":"1rem"},"spacing":{"blockGap":"1px"}},"layout":{"type":"flex","orientation":"vertical"}} /--></div>
-
 <!-- /wp:column -->
 
 <!-- wp:column -->
@@ -92,4 +109,3 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
->>>>>>> 296a3457554207d8491d89282d0184244898fe4d
