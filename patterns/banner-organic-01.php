@@ -4,7 +4,6 @@
  * Slug: kaddora-organic-block-theme/banner-organic-01
  * Categories: front page
  */
-
 ?>
 <!-- wp:group {"style":{"background":{"backgroundImage":{"url":"<?php echo esc_url(get_stylesheet_directory_uri() . "/assets/images/banner-1.jpg");?>","id":600,"source":"file","title":"banner-1"},"backgroundSize":"cover"},"spacing":{"padding":{"right":"var:preset|spacing|20","left":"var:preset|spacing|20"}}},"layout":{"type":"default"}} -->
 <div class="wp-block-group" style="padding-right:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)"><!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"0"},"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}}}} -->
