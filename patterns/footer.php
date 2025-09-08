@@ -10,6 +10,8 @@
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:site-logo {"width":200,"shouldSyncIcon":true} /-->
 
+<!-- wp:site-title /-->
+
 <!-- wp:paragraph {"style":{"color":{"text":"#89969b"},"elements":{"link":{"color":{"text":"#89969b"}}}}} -->
 <p class="has-text-color has-link-color" style="color:#89969b">Freshness You Can Taste, Quality You Can Trust</p>
 <!-- /wp:paragraph --></div>
@@ -17,52 +19,84 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"1.5rem"}}} -->
-<h3 class="wp-block-heading" style="font-size:1.5rem">Organic</h3>
+<h3 class="wp-block-heading" style="font-size:1.5rem"><strong>Organic</strong></h3>
 <!-- /wp:heading -->
 
 <!-- wp:navigation {"overlayMenu":"never","style":{"typography":{"fontSize":"1rem"},"spacing":{"blockGap":"1px"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Home', 'kaddora-organic-block-theme' ); ?>","url":"#"} /-->
+<!-- wp:navigation-link {"label":"Home","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Service', 'kaddora-organic-block-theme' ); ?>","url":"#"} /-->
+<!-- wp:navigation-link {"label":"Service","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"<?php esc_html_e( 'About Us', 'kaddora-organic-block-theme' ); ?>","url":"#"} /-->
+<!-- wp:navigation-link {"label":"About Us","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Contact Us', 'kaddora-organic-block-theme' ); ?>","url":"#"} /-->
+<!-- wp:navigation-link {"label":"Contact Us","url":"#"} /-->
 <!-- /wp:navigation --></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"1.5rem"}}} -->
-<h3 class="wp-block-heading" style="font-size:1.5rem">Quick Link</h3>
+<h3 class="wp-block-heading" style="font-size:1.5rem"><strong>Quick Link</strong></h3>
 <!-- /wp:heading -->
 
-<!-- wp:navigation {"ref":569,"overlayMenu":"never","style":{"typography":{"fontSize":"1rem"},"spacing":{"blockGap":"1px"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Offers', 'kaddora-organic-block-theme' ); ?>","url":"#"} /-->
+<!-- wp:navigation {"overlayMenu":"never","style":{"typography":{"fontSize":"1rem"},"spacing":{"blockGap":"1px"}},"layout":{"type":"flex","orientation":"vertical"}} -->
+<!-- wp:navigation-link {"label":"Offer","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Discount Coupons', 'kaddora-organic-block-theme' ); ?>","url":"#"} /-->
+<!-- wp:navigation-link {"label":"Discount Coupons","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Stores', 'kaddora-organic-block-theme' ); ?>","url":"#"} /-->
+<!-- wp:navigation-link {"label":"Stores Us","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"<?php esc_html_e( 'New Orders', 'kaddora-organic-block-theme' ); ?>","url":"#"} /-->
-
-<!-- /wp:navigation -->
-</div>
+<!-- wp:navigation-link {"label":"New Orders","url":"#"} /-->
+<!-- /wp:navigation --></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"1.5rem"}}} -->
-<h3 class="wp-block-heading" style="font-size:1.5rem">Subscribe</h3>
+<h3 class="wp-block-heading" style="font-size:1.5rem"><strong>Subscribe</strong></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"color":{"text":"#89969b"},"elements":{"link":{"color":{"text":"#89969b"}}}}} -->
 <p class="has-text-color has-link-color" style="color:#89969b">Subscribe to our newsletter</p>
-<!-- /wp:paragraph --></div>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","orientation":"vertical"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"fontSize":"small"} -->
+<p class="has-small-font-size"><strong>KEEP IN TOUCH</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:social-links {"customIconBackgroundColor":"#6bb252","iconBackgroundColorValue":"#3f8127ff"} -->
+<ul class="wp-block-social-links has-icon-background-color"><!-- wp:social-link {"url":"<?php echo esc_url('https://www.instagram.com/kaddoratech/'); ?>","service":"instagram","label":"Instagram"} /-->
+
+<!-- wp:social-link {"url":"<?php echo esc_url('https://x.com/KaddoraTech'); ?>","service":"x"} /-->
+
+<!-- wp:social-link {"url":"<?php echo esc_url('https://kaddora.com/'); ?>","service":"whatsapp"} /-->
+
+<!-- wp:social-link {"url":"<?php echo esc_url('https://www.linkedin.com/company/kaddora-tech/posts/') ?>","service":"linkedin"} /-->
+
+<!-- wp:social-link {"url":"<?php echo esc_url('https://www.facebook.com/KaddoraTech'); ?>","service":"facebook"} /--></ul>
+<!-- /wp:social-links --></div>
+<!-- /wp:group --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:separator {"className":"is-style-wide"} -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center","verticalAlignment":"bottom"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"fontSize":"small"} -->
+<p class="has-small-font-size"><strong>🪪 | FSSAI Certified</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"fontSize":"small"} -->
+<p class="has-small-font-size"><strong>🔏 | Secure Payment</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"fontSize":"small"} -->
+<p class="has-small-font-size"><strong>🌳| Eco-friendly Packaging</strong></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:separator {"className":"is-style-wide","style":{"layout":{"selfStretch":"fit","flexSize":null}}} -->
 <hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
-<!-- /wp:separator -->
+<!-- /wp:separator --></div>
+<!-- /wp:group -->
 
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"right":"var:preset|spacing|20","left":"var:preset|spacing|20"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group alignfull" style="padding-right:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)"><!-- wp:paragraph {"fontSize":"small"} -->
