@@ -51,11 +51,19 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"1.5rem"}}} -->
-<h3 class="wp-block-heading" style="font-size:1.5rem"><strong>Subscribe</strong></h3>
+<h3 class="wp-block-heading" style="font-size:1.5rem"><strong>Contact US</strong></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"color":{"text":"#89969b"},"elements":{"link":{"color":{"text":"#89969b"}}}}} -->
-<p class="has-text-color has-link-color" style="color:#89969b">Subscribe to our newsletter</p>
+<p class="has-text-color has-link-color" style="color:#89969b">📞 : +91 83609 94063</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#89969b"},"elements":{"link":{"color":{"text":"#89969b"}}}}} -->
+<p class="has-text-color has-link-color" style="color:#89969b">📧 : info@kaddora.com</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"color":{"text":"#89969b"},"elements":{"link":{"color":{"text":"#89969b"}}}}} -->
+<p class="has-text-color has-link-color" style="color:#89969b">📍 : 1st Floor B33 Noida Sector-63, 201301, Utter Pradesh</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","orientation":"vertical"}} -->
