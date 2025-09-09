@@ -39,19 +39,10 @@
 <!-- wp:group {"className":"has-large-font-size","style":{"color":{"background":"#6bb252"},"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"spacing":{"padding":{"top":"0rem","bottom":"0rem","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}}},"textColor":"base","fontSize":"large","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group has-large-font-size has-base-color has-text-color has-background has-link-color" style="background-color:#6bb252;padding-top:0rem;padding-right:var(--wp--preset--spacing--30);padding-bottom:0rem;padding-left:var(--wp--preset--spacing--30)"><!-- wp:navigation {"overlayMenu":"never","metadata":{"ignoredHookedBlocks":["woocommerce/customer-account"]},"style":{"typography":{"fontSize":"1.4rem"}},"layout":{"type":"flex","orientation":"horizontal","justifyContent":"space-between"}} -->
 <!-- wp:navigation-link {"label":"Home","url":"/"} /-->
-
-<!-- wp:navigation-link {"label":"Shop","url":"#"} -->
-    <!-- wp:navigation-submenu -->
-        <!-- wp:navigation-link {"label":"Snacks","url":"/product-category/snacks"} /-->
-        <!-- wp:navigation-link {"label":"Beverages","url":"/product-category/beverages"} /-->
-        <!-- wp:navigation-link {"label":"Ready to Eat","url":"/product-category/ready-to-eat"} /-->
-    <!-- /wp:navigation-submenu -->
-<!-- /wp:navigation-link -->
-
-<!-- wp:navigation-link {"label":"About Us","url":"/about"} /-->
-<!-- wp:navigation-link {"label":"Blog","url":"/blog"} /-->
-<!-- wp:navigation-link {"label":"Contact Us","url":"/contact"} /-->
-<!-- wp:navigation-link {"label":"Custom Page","url":"https://example.com"} /-->
+<!-- wp:navigation-link {"label":"Shop","url":"/shop"} /-->
+<!-- wp:navigation-link {"label":"Blogs","url":"/blog"} /-->
+<!-- wp:navigation-link {"label":"About","url":"/about"} /-->
+<!-- wp:navigation-link {"label":"Contact","url":"/cantact"} /-->
 <!-- /wp:navigation -->
 
 
