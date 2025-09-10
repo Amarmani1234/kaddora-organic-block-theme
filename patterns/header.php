@@ -6,8 +6,8 @@
  */
 ?>
 <!-- wp:group {"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"0%"},"color":{"background":"#325026"},"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}},"typography":{"fontSize":"0.7rem"}},"textColor":"base-2","layout":{"type":"default"}} -->
-<div class="wp-block-group has-base-2-color has-text-color has-background has-link-color" style="background-color:#325026;font-size:0.7rem"><!-- wp:paragraph {"align":"center"} -->
+<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"},"color":{"background":"#325026"},"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}},"typography":{"fontSize":"1rem"}},"textColor":"base-2","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
+<div class="wp-block-group has-base-2-color has-text-color has-background has-link-color" style="background-color:#325026;font-size:1rem"><!-- wp:paragraph {"align":"center"} -->
 <p class="has-text-align-center"><strong>🚚 Free delivery on orders over ₹499</strong></p>
 <!-- /wp:paragraph -->
 
@@ -42,7 +42,7 @@
 <!-- wp:navigation-link {"label":"Shop","url":"/shop"} /-->
 <!-- wp:navigation-link {"label":"Blogs","url":"/blog"} /-->
 <!-- wp:navigation-link {"label":"About","url":"/about"} /-->
-<!-- wp:navigation-link {"label":"Contact","url":"/cantact"} /-->
+<!-- wp:navigation-link {"label":"Contact","url":"/Contact"} /-->
 <!-- /wp:navigation -->
 
 

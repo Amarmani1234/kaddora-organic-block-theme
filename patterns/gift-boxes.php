@@ -17,7 +17,7 @@
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
 <div class="wp-block-buttons"><!-- wp:button {"textAlign":"center","style":{"color":{"background":"#ffd700","text":"#333333"},"elements":{"link":{"color":{"text":"#333333"}}}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link has-text-color has-background has-link-color has-text-align-center wp-element-button" style="color:#333333;background-color:#ffd700"><strong>Explore All Gifts</strong></a></div>
+<div class="wp-block-button"><a class="wp-block-button__link has-text-color has-background has-link-color has-text-align-center wp-element-button" href="/shop" style="color:#333333;background-color:#ffd700"><strong>Explore All Gifts</strong></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div></div>
 <!-- /wp:cover --></div>
