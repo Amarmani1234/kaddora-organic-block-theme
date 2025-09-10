@@ -23,13 +23,13 @@
 <!-- /wp:heading -->
 
 <!-- wp:navigation {"overlayMenu":"never","style":{"typography":{"fontSize":"1rem"},"spacing":{"blockGap":"1px"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-<!-- wp:navigation-link {"label":"Home","url":"#"} /-->
+<!-- wp:navigation-link {"label":"Home","url":"/"} /-->
 
-<!-- wp:navigation-link {"label":"Service","url":"#"} /-->
+<!-- wp:navigation-link {"label":"Service","url":"/"} /-->
 
-<!-- wp:navigation-link {"label":"About Us","url":"#"} /-->
+<!-- wp:navigation-link {"label":"About Us","url":"/about"} /-->
 
-<!-- wp:navigation-link {"label":"Contact Us","url":"#"} /-->
+<!-- wp:navigation-link {"label":"Contact Us","url":"/contact"} /-->
 <!-- /wp:navigation --></div>
 <!-- /wp:column -->
 
@@ -39,13 +39,13 @@
 <!-- /wp:heading -->
 
 <!-- wp:navigation {"overlayMenu":"never","style":{"typography":{"fontSize":"1rem"},"spacing":{"blockGap":"1px"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-<!-- wp:navigation-link {"label":"Offer","url":"#"} /-->
+<!-- wp:navigation-link {"label":"Offer","url":"/shop"} /-->
 
-<!-- wp:navigation-link {"label":"Discount Coupons","url":"#"} /-->
+<!-- wp:navigation-link {"label":"Discount Coupons","url":"/shop"} /-->
 
-<!-- wp:navigation-link {"label":"Stores Us","url":"#"} /-->
+<!-- wp:navigation-link {"label":"Offline Stores","url":"/shop"} /-->
 
-<!-- wp:navigation-link {"label":"New Orders","url":"#"} /-->
+<!-- wp:navigation-link {"label":"New Orders","url":"/shop"} /-->
 <!-- /wp:navigation --></div>
 <!-- /wp:column -->
 

@@ -17,7 +17,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><a href="#">Shop Now</a></p>
+<p><a href="/shop">Shop Now</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -33,7 +33,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><a href="#" target="_blank" rel="noreferrer noopener">Shop Now</a></p>
+<p><a href="/shop" target="_blank" rel="noreferrer noopener">Shop Now</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -47,7 +47,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><a href="#">Shop Now</a></p>
+<p><a href="/shop">Shop Now</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>

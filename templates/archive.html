@@ -1,13 +1,29 @@
-<!-- wp:template-part {"slug":"header","area":"header","tagName":"header"} /-->
+<!-- wp:template-part {"slug":"header","theme":"kaddora-organic-block-theme","tagName":"header","area":"header"} /-->
 
-<!-- wp:group {"tagName":"main","align":"full","layout":{"type":"constrained"}} -->
-<main class="wp-block-group alignfull">
+<!-- wp:group {"tagName":"main","align":"full","layout":{"type":"constrained","contentSize":"100%"}} -->
+<main class="wp-block-group alignfull"><!-- wp:query-title {"type":"archive","align":"wide","style":{"typography":{"lineHeight":"1"},"spacing":{"padding":{"top":"var:preset|spacing|20"}}}} /-->
 
-	<!-- wp:query-title {"type":"archive","align":"wide","style":{"typography":{"lineHeight":"1"},"spacing":{"padding":{"top":"var:preset|spacing|50"}}}} /-->
+<!-- wp:query {"queryId":11,"query":{"perPage":100,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"metadata":{"categories":["posts"],"patternName":"core/query-medium-posts","name":"Image at left"}} -->
+<div class="wp-block-query"><!-- wp:post-template -->
+<!-- wp:columns {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}}} -->
+<div class="wp-block-columns alignwide" style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)"><!-- wp:column {"width":"66.66%"} -->
+<div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:post-featured-image {"isLink":true} /--></div>
+<!-- /wp:column -->
 
-	<!-- wp:pattern {"slug":"kaddora-organic-block-theme/posts-3-col"} /-->
+<!-- wp:column {"width":"33.33%"} -->
+<div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:post-title {"isLink":true} /-->
 
-</main>
+<!-- wp:post-excerpt {"moreText":"read more","excerptLength":50} /-->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group" style="padding-top:0;padding-bottom:0"><!-- wp:post-author /-->
+
+<!-- wp:post-date /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+<!-- /wp:post-template --></div>
+<!-- /wp:query --></main>
 <!-- /wp:group -->
 
-<!-- wp:template-part {"slug":"footer","area":"footer","tagName":"footer"} /-->
+<!-- wp:template-part {"slug":"footer","theme":"kaddora-organic-block-theme","tagName":"footer","area":"footer"} /-->
