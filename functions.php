@@ -7,11 +7,10 @@
  * Register custom block styles.
  */
 
-
 add_action( 'after_setup_theme', function() {
     // Tell WooCommerce our theme supports block templates
     add_theme_support( 'woocommerce' );
-		add_theme_support( 'woocommerce-block-templates' );
+	add_theme_support( 'woocommerce-block-templates' );
 
 });
 
@@ -179,4 +178,8 @@ function kaddora_enqueue_editor_scripts() {
 	);
 }
 add_action( 'enqueue_block_editor_assets', 'kaddora_enqueue_editor_scripts' );
+
+
+
+
 
