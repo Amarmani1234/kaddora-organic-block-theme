@@ -15,11 +15,13 @@
 <p class="has-text-align-center"><strong>📞 call us: 1800-123-FOOD</strong></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
-    
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|10","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--10);padding-right:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:site-logo {"width":194} /-->
 
-<!-- wp:site-title {"fontSize":"large"} /-->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"0","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group" style="padding-top:0;padding-right:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:site-logo {"width":85} /-->
+
+<!-- wp:site-title {"fontSize":"large"} /--></div>
+<!-- /wp:group -->
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"right"}} -->
 <div class="wp-block-group"><!-- wp:search {"label":"Search","showLabel":false,"placeholder":"Search for products","width":100,"widthUnit":"%","buttonText":"Search","buttonPosition":"button-inside","buttonUseIcon":true,"style":{"border":{"radius":"25px"}}} /-->
@@ -39,12 +41,17 @@
 <!-- wp:group {"className":"has-large-font-size","style":{"color":{"background":"#6bb252"},"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"spacing":{"padding":{"top":"0rem","bottom":"0rem","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}}},"textColor":"base","fontSize":"large","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group has-large-font-size has-base-color has-text-color has-background has-link-color" style="background-color:#6bb252;padding-top:0rem;padding-right:var(--wp--preset--spacing--30);padding-bottom:0rem;padding-left:var(--wp--preset--spacing--30)"><!-- wp:navigation {"overlayMenu":"never","metadata":{"ignoredHookedBlocks":["woocommerce/customer-account"]},"style":{"typography":{"fontSize":"1.4rem"}},"layout":{"type":"flex","orientation":"horizontal","justifyContent":"space-between"}} -->
 <!-- wp:navigation-link {"label":"Home","url":"/"} /-->
+
 <!-- wp:navigation-link {"label":"Shop","url":"/shop"} /-->
+
+<!-- wp:navigation-link {"label":"My Cart","url":"/cart"} /-->
+
 <!-- wp:navigation-link {"label":"Blogs","url":"/blog"} /-->
+
 <!-- wp:navigation-link {"label":"About","url":"/about"} /-->
+
 <!-- wp:navigation-link {"label":"Contact","url":"/Contact"} /-->
 <!-- /wp:navigation -->
-
 
 <!-- wp:group {"style":{"typography":{"fontSize":"1.3rem"},"spacing":{"padding":{"top":"0.5rem","bottom":"0.5rem"}}},"layout":{"type":"flex","flexWrap":"nowrap","orientation":"horizontal"}} -->
 <div class="wp-block-group" style="padding-top:0.5rem;padding-bottom:0.5rem;font-size:1.3rem"><!-- wp:woocommerce/customer-account {"displayStyle":"icon_only","iconStyle":"line","iconClass":"wc-block-customer-account__account-icon"} /-->
