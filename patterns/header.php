@@ -17,10 +17,10 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"0","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group" style="padding-top:0;padding-right:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group"><!-- wp:site-logo {"width":85} /-->
+<div class="wp-block-group" style="padding-top:0;padding-right:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
+<div class="wp-block-group"><!-- wp:site-logo {"width":68} /-->
 
-<!-- wp:site-title {"fontSize":"large"} /--></div>
+<!-- wp:site-title {"style":{"typography":{"fontStyle":"normal","fontWeight":"700","textTransform":"capitalize"}},"fontSize":"large","fontFamily":"heading"} /--></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"right"}} -->
@@ -28,11 +28,11 @@
 
 <!-- wp:buttons {"layout":{"type":"flex","orientation":"horizontal","justifyContent":"left"}} -->
 <div class="wp-block-buttons"><!-- wp:button {"textAlign":"center","className":"is-style-outline"} -->
-<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-text-align-center wp-element-button">Login</a></div>
+<div class="wp-block-button is-style-outline"><a href="/login" class="wp-block-button__link has-text-align-center wp-element-button">Login</a></div>
 <!-- /wp:button -->
 
 <!-- wp:button {"className":"is-style-outline"} -->
-<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button">Sign UP</a></div>
+<div class="wp-block-button is-style-outline"><a href="/sign-up" class="wp-block-button__link wp-element-button">Sign UP</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
