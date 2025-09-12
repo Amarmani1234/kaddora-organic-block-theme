@@ -5,7 +5,7 @@
  * Categories: front page
  */
 ?>
-<!-- wp:group {"style":{"background":{"backgroundImage":{"url":"http://organic-food.local/wp-content/themes/kaddora-organic-block-theme/assets/images/banner-1.jpg","id":600,"source":"file","title":"banner-1"},"backgroundSize":"cover"},"spacing":{"padding":{"right":"var:preset|spacing|20","left":"var:preset|spacing|20"}}},"layout":{"type":"default"}} -->
+<!-- wp:group {"style":{"background":{"backgroundImage":{"url":"<?php echo esc_url(get_stylesheet_directory_uri() . "/assets/images/banner-1.png");?>","id":600,"source":"file","title":"banner-1"},"backgroundSize":"cover"},"spacing":{"padding":{"right":"var:preset|spacing|20","left":"var:preset|spacing|20"}}},"layout":{"type":"default"}} -->
 <div class="wp-block-group" style="padding-right:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)"><!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"0"},"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}}}} -->
 <div class="wp-block-columns" style="padding-top:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20)"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"style":{"typography":{"fontSize":"4rem"},"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}},"spacing":{"padding":{"top":"var:preset|spacing|10","bottom":"0"}}},"textColor":"contrast"} -->

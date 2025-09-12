@@ -37,7 +37,7 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"style":{"background":{"backgroundImage":{"url":"<?php echo esc_url(get_stylesheet_directory_uri() . "/assets/images/yallow.png");?>","id":331,"source":"file","title":"yallow"},"backgroundSize":"cover"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|20","right":"var:preset|spacing|20"}}},"layout":{"type":"flex","orientation":"vertical"}} -->
+<!-- wp:group {"style":{"background":{"backgroundImage":{"url":"<?php echo esc_url(get_stylesheet_directory_uri() . "/assets/images/yellow.png");?>","id":331,"source":"file","title":"yallow"},"backgroundSize":"cover"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|20","right":"var:preset|spacing|20"}}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--20)"><!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"textColor":"base-2"} -->
 <h3 class="wp-block-heading has-base-2-color has-text-color has-link-color"><strong>Discount Coupons</strong></h3>
 <!-- /wp:heading -->
