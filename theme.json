@@ -154,10 +154,14 @@
 			]
 		},
 		"layout": {
-			"contentSize": "620px",
-			"wideSize": "1280px"
+			"contentSize": "800px",
+			"wideSize": "1200px"
 		},
 		"spacing": {
+			"padding": true,
+      		"margin": true,
+			"blockGap": "1.5rem",
+      		"units": [ "px", "em", "rem", "%" ],
 			"spacingScale": {
 				"steps": 0
 			},
