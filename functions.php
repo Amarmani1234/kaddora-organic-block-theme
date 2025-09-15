@@ -7,21 +7,22 @@
  * Register custom block styles.
  */
 
-add_action( 'after_setup_theme', function() {
-    // Tell WooCommerce our theme supports block templates
-    add_theme_support( 'woocommerce' );
-	add_theme_support( 'woocommerce-block-templates' );
+add_action('after_setup_theme', function () {
+	// Tell WooCommerce our theme supports block templates
+	add_theme_support('woocommerce');
+	add_theme_support('woocommerce-block-templates');
 
 });
 
-if ( ! function_exists( 'kaddora_block_styles' ) ) :
-	function kaddora_block_styles() {
+if (!function_exists('kaddora_block_styles')):
+	function kaddora_block_styles()
+	{
 
 		register_block_style(
 			'core/details',
 			array(
-				'name'         => 'arrow-icon-details',
-				'label'        => __( 'Arrow icon', 'kaddora-organic-block-theme' ),
+				'name' => 'arrow-icon-details',
+				'label' => __('Arrow icon', 'kaddora-organic-block-theme'),
 				'inline_style' => '
 				.is-style-arrow-icon-details {
 					padding-top: var(--wp--preset--spacing--10);
@@ -39,8 +40,8 @@ if ( ! function_exists( 'kaddora_block_styles' ) ) :
 		register_block_style(
 			'core/post-terms',
 			array(
-				'name'         => 'pill',
-				'label'        => __( 'Pill', 'kaddora-organic-block-theme' ),
+				'name' => 'pill',
+				'label' => __('Pill', 'kaddora-organic-block-theme'),
 				'inline_style' => '
 				.is-style-pill a,
 				.is-style-pill span:not([class], [data-rich-text-placeholder]) {
@@ -58,8 +59,8 @@ if ( ! function_exists( 'kaddora_block_styles' ) ) :
 		register_block_style(
 			'core/list',
 			array(
-				'name'         => 'checkmark-list',
-				'label'        => __( 'Checkmark', 'kaddora-organic-block-theme' ),
+				'name' => 'checkmark-list',
+				'label' => __('Checkmark', 'kaddora-organic-block-theme'),
 				'inline_style' => '
 				ul.is-style-checkmark-list {
 					list-style-type: "\2713";
@@ -73,8 +74,8 @@ if ( ! function_exists( 'kaddora_block_styles' ) ) :
 		register_block_style(
 			'core/navigation-link',
 			array(
-				'name'         => 'arrow-link',
-				'label'        => __( 'With arrow', 'kaddora-organic-block-theme' ),
+				'name' => 'arrow-link',
+				'label' => __('With arrow', 'kaddora-organic-block-theme'),
 				'inline_style' => '
 				.is-style-arrow-link .wp-block-navigation-item__label:after {
 					content: "\2197";
@@ -88,8 +89,8 @@ if ( ! function_exists( 'kaddora_block_styles' ) ) :
 		register_block_style(
 			'core/heading',
 			array(
-				'name'         => 'asterisk',
-				'label'        => __( 'With asterisk', 'kaddora-organic-block-theme' ),
+				'name' => 'asterisk',
+				'label' => __('With asterisk', 'kaddora-organic-block-theme'),
 				'inline_style' => "
 				.is-style-asterisk:before {
 					content: '';
@@ -116,68 +117,78 @@ if ( ! function_exists( 'kaddora_block_styles' ) ) :
 		);
 	}
 endif;
-add_action( 'init', 'kaddora_block_styles' );
+add_action('init', 'kaddora_block_styles');
 
 /**
  * Enqueue block stylesheets.
  */
-if ( ! function_exists( 'kaddora_block_stylesheets' ) ) :
-	function kaddora_block_stylesheets() {
+if (!function_exists('kaddora_block_stylesheets')):
+	function kaddora_block_stylesheets()
+	{
 		wp_enqueue_block_style(
 			'core/button',
 			array(
 				'handle' => 'kaddora-button-style-outline',
-				'src'    => get_parent_theme_file_uri( 'assets/css/button-outline.css' ),
-				'ver'    => wp_get_theme( get_template() )->get( 'Version' ),
-				'path'   => get_parent_theme_file_path( 'assets/css/button-outline.css' ),
+				'src' => get_parent_theme_file_uri('assets/css/button-outline.css'),
+				'ver' => wp_get_theme(get_template())->get('Version'),
+				'path' => get_parent_theme_file_path('assets/css/button-outline.css'),
 			)
 		);
 	}
 endif;
-add_action( 'init', 'kaddora_block_stylesheets' );
+add_action('init', 'kaddora_block_stylesheets');
 
 /**
  * Register pattern categories.
  */
-if ( ! function_exists( 'kaddora_pattern_categories' ) ) :
-	function kaddora_pattern_categories() {
+if (!function_exists('kaddora_pattern_categories')):
+	function kaddora_pattern_categories()
+	{
 		register_block_pattern_category(
 			'kaddora_page',
 			array(
-				'label'       => _x( 'Pages', 'Block pattern category', 'kaddora-organic-block-theme' ),
-				'description' => __( 'A collection of full page layouts.', 'kaddora-organic-block-theme' ),
+				'label' => _x('Pages', 'Block pattern category', 'kaddora-organic-block-theme'),
+				'description' => __('A collection of full page layouts.', 'kaddora-organic-block-theme'),
 			)
 		);
 	}
 endif;
-add_action( 'init', 'kaddora_pattern_categories' );
+add_action('init', 'kaddora_pattern_categories');
 
 /**
  * Enqueue frontend custom CSS.
  */
-function kaddora_enqueue_styles() {
+function kaddora_enqueue_styles()
+{
 	wp_enqueue_style(
 		'kaddora-custom-css',
 		get_stylesheet_directory_uri() . '/assets/css/woocommerce.css',
 		array(),
-		wp_get_theme()->get( 'Version' )
+		wp_get_theme()->get('Version')
+	);
+	wp_enqueue_style(
+		'kaddora-custom-css',
+		get_stylesheet_directory_uri() . '/assets/css/button-style.css',
+		array(),
+		wp_get_theme()->get('Version')
 	);
 }
-add_action( 'wp_enqueue_scripts', 'kaddora_enqueue_styles' );
+add_action('wp_enqueue_scripts', 'kaddora_enqueue_styles');
 
 /**
  * Enqueue editor JS.
  */
-function kaddora_enqueue_editor_scripts() {
+function kaddora_enqueue_editor_scripts()
+{
 	wp_enqueue_script(
 		'kaddora-editor',
-		get_theme_file_uri( '/assets/js/editor.js' ),
-		array( 'wp-blocks', 'wp-dom' ),
-		wp_get_theme()->get( 'Version' ),
+		get_theme_file_uri('/assets/js/editor.js'),
+		array('wp-blocks', 'wp-dom'),
+		wp_get_theme()->get('Version'),
 		true
 	);
 }
-add_action( 'enqueue_block_editor_assets', 'kaddora_enqueue_editor_scripts' );
+add_action('enqueue_block_editor_assets', 'kaddora_enqueue_editor_scripts');
 
 
 

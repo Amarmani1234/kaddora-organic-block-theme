@@ -6,14 +6,14 @@
  */
 ?>
 <!-- wp:group {"style":{"color":{"background":"#f4f4f4"},"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"layout":{"type":"constrained","contentSize":"100%"}} -->
-<div class="wp-block-group has-background" style="background-color:#f4f4f4;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)"><!-- wp:columns {"verticalAlignment":null} -->
+<div class="wp-block-group has-background" style="background-color:#f4f4f4;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"top","width":"25%"} -->
 <div class="wp-block-column is-vertically-aligned-top" style="flex-basis:25%"><!-- wp:site-logo {"width":200,"shouldSyncIcon":false,"align":"center"} /-->
 
 <!-- wp:site-title {"textAlign":"center"} /-->
 
-<!-- wp:paragraph {"align":"center","style":{"color":{"text":"#89969b"},"elements":{"link":{"color":{"text":"#89969b"}}}}} -->
-<p class="has-text-align-center has-text-color has-link-color" style="color:#89969b">Freshness You Can Taste, Quality You Can Trust</p>
+<!-- wp:paragraph {"align":"center","style":{"color":{"text":"#234854"},"elements":{"link":{"color":{"text":"#234854"}}}}} -->
+<p class="has-text-align-center has-text-color has-link-color" style="color:#234854">Freshness You Can Taste, Quality You Can Trust</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -54,16 +54,16 @@
 <h3 class="wp-block-heading has-text-align-center" style="font-size:1.5rem"><strong>Contact US</strong></h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"align":"center","style":{"color":{"text":"#89969b"},"elements":{"link":{"color":{"text":"#89969b"}}}}} -->
-<p class="has-text-align-center has-text-color has-link-color" style="color:#89969b">📞 : +91 83609 94063</p>
+<!-- wp:paragraph {"align":"center","style":{"color":{"text":"#234854"},"elements":{"link":{"color":{"text":"#234854"}}}}} -->
+<p class="has-text-align-center has-text-color has-link-color" style="color:#234854">📞 : +91 83609 94063</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"align":"center","style":{"color":{"text":"#89969b"},"elements":{"link":{"color":{"text":"#89969b"}}}}} -->
-<p class="has-text-align-center has-text-color has-link-color" style="color:#89969b">📧 : info@kaddora.com</p>
+<!-- wp:paragraph {"align":"center","style":{"color":{"text":"#234854"},"elements":{"link":{"color":{"text":"#234854"}}}}} -->
+<p class="has-text-align-center has-text-color has-link-color" style="color:#234854">📧 : info@kaddora.com</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"align":"center","style":{"color":{"text":"#89969b"},"elements":{"link":{"color":{"text":"#89969b"}}}}} -->
-<p class="has-text-align-center has-text-color has-link-color" style="color:#89969b">📍 : 1st Floor B33 Noida Sector-63, 201301, Utter Pradesh</p>
+<!-- wp:paragraph {"align":"center","style":{"color":{"text":"#234854"},"elements":{"link":{"color":{"text":"#234854"}}}}} -->
+<p class="has-text-align-center has-text-color has-link-color" style="color:#234854">📍 : 1st Floor B33 Noida Sector-63, 201301, Utter Pradesh</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","orientation":"vertical","justifyContent":"center"}} -->

@@ -1,0 +1,13 @@
+/* Remove black background from search button */
+.wp-block-search .wp-block-search__button {
+  background: transparent !important; /* no background */
+  border: none !important;            /* no border */
+  padding: 0 !important;              /* tighter spacing */
+}
+
+/* Make sure icon color stays visible */
+.wp-block-search .wp-block-search__button svg {
+  fill: #000; /* set icon color you like */
+  width: 20px; /* adjust size */
+  height: 20px;
+}
