@@ -161,13 +161,13 @@ add_action('init', 'kaddora_pattern_categories');
 function kaddora_enqueue_styles()
 {
 	wp_enqueue_style(
-		'kaddora-custom-css',
+		'kaddora-woocommerce-css',
 		get_stylesheet_directory_uri() . '/assets/css/woocommerce.css',
 		array(),
 		wp_get_theme()->get('Version')
 	);
 	wp_enqueue_style(
-		'kaddora-custom-css',
+		'kaddora-button-css',
 		get_stylesheet_directory_uri() . '/assets/css/button-style.css',
 		array(),
 		wp_get_theme()->get('Version')
